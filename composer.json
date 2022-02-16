@@ -1,5 +1,5 @@
 {
-    "name": "kolyadin/dbal-clickhouse",
+    "name": "vziks/dbal-clickhouse",
     "type": "library",
     "description": "Doctrine DBAL driver for ClickHouse",
     "keywords": [
