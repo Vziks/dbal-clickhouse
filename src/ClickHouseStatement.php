@@ -328,6 +328,7 @@ class ClickHouseStatement implements \IteratorAggregate, Statement
         $sql = trim($sql);
 
         $this->rows =
+            stripos($sql, 'with') === 0 ||
             stripos($sql, 'select') === 0 ||
             stripos($sql, 'show') === 0 ||
             stripos($sql, 'describe') === 0 ?
